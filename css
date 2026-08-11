@@ -1,0 +1,147 @@
+css/style.css
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #0f172a;
+    color: white;
+    font-family: Inter, Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    color: #94a3b8;
+}
+
+.toolbar {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    padding: 12px 22px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#refreshBtn {
+    background: #f59e0b;
+}
+
+#resetBtn {
+    background: #ef4444;
+    color: white;
+}
+
+#summary {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.summary-card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 16px;
+    min-width: 220px;
+    text-align: center;
+}
+
+.summary-card span {
+    color: #94a3b8;
+}
+
+#leaderBoard {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.runner {
+    background: #1e293b;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.gold {
+    border: 2px solid gold;
+}
+
+.silver {
+    border: 2px solid silver;
+}
+
+.bronze {
+    border: 2px solid #cd7f32;
+}
+
+.runner-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.stock-name {
+    font-weight: bold;
+}
+
+.performance {
+    font-size: 18px;
+}
+
+.positive {
+    color: #22c55e;
+}
+
+.negative {
+    color: #ef4444;
+}
+
+.track {
+    background: #334155;
+    height: 46px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.horse {
+    position: absolute;
+    top: 8px;
+    font-size: 24px;
+    transition: all 1s ease;
+}
+
+.finish {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.stock-info {
+    margin-top: 10px;
+    color: #cbd5e1;
+    font-size: 14px;
+}
