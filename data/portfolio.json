@@ -1,0 +1,12 @@
+{
+  "raceName": "Corrida dos 45 Anos",
+  "startDate": "2026-08-06",
+  "stocks": [
+    { "ticker": "EBAY", "name": "eBay" },
+    { "ticker": "SMMT", "name": "Summit Therapeutics" },
+    { "ticker": "MU", "name": "Micron Technology" },
+    { "ticker": "ASTS", "name": "AST SpaceMobile" },
+    { "ticker": "MRVL", "name": "Marvell Technology" },
+    { "ticker": "ACGL", "name": "Arch Capital" }
+  ]
+}
